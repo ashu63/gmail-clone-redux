@@ -1,0 +1,45 @@
+.sidebar{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    max-width: 450px;
+    padding-bottom: 20px;
+ 
+}
+.sidebar__rows{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    min-width: 270px;
+    padding-bottom: 20px;
+}
+.compose{
+    position: sticky;
+    top: 74px;
+    z-index: 999;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.compose > button{
+    border-radius: 999px;
+    width: 160px;
+    height: 50px !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 1px 3px 10px 5px rgba(204, 60, 60, 0) !important;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.plus{
+    margin-right: 10px;
+}
+.sidebar__rowsBottom{
+    margin-top: 20px;
+    position: sticky;
+    z-index: 999;
+    top: 460px;
+}
+.sidebar__rowsBottom > h4{
+    margin-left: 35px;
+    font-weight: 500;
+}
+.sidebar__rows{
+    position: sticky;
+    z-index: 999;
+    top: 150px;
+}

@@ -1,0 +1,24 @@
+.mail__main{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    padding:10px 40px;
+    border-bottom: 1px solid whitesmoke;
+}
+.mail__topLeft{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.mail__topRight{
+    margin-right: 30px;
+}
+.mail__topRight button{
+    padding: 10px;
+    transition: .5s;
+}
+.mail__sections{
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 0;
+}

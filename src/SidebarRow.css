@@ -1,0 +1,41 @@
+.sidebarRow{
+    margin-top: 8px;
+    padding: 4px 34px;
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: grey;
+    border-radius: 40px;
+}
+.sidebarRow:hover{
+    background-color: rgb(241, 241, 241);
+}
+.sidebarRow > h2{
+    font-weight: 500;
+    margin-left: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 7px;
+    padding-top: 4px;
+}
+.sidebarRow--active{
+    background-color: rgb(255, 231, 233);
+    border-radius: 40px;
+}
+.sidebarRow--active:hover{
+    background-color:  rgb(255, 231, 233);
+}
+.sidebarRow > p{
+    font-size: small;
+    margin-top: -3px;
+    font-weight: bold;
+    color: rgb(231, 0, 19) ;
+}
+.sidebarRowIcon--active{
+    color: rgb(231, 0, 19) ;
+}
+.sidebarTitle--active{
+    color: rgb(231, 0, 19) ;
+}

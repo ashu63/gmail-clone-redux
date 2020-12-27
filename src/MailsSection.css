@@ -1,0 +1,22 @@
+.mailsSection{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 0px !important;
+    padding: 15px;
+    min-width: 250px;
+    margin-left: 20px;
+    color: grey;
+}
+.mailsSection--selected{
+    border-width: 3px !important;
+}
+.mailsSection:hover{
+    border-bottom-width: 3px !important ;
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+
+}
+.mailsSection > h4{
+    margin-left: 20px;
+}
